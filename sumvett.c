@@ -4,24 +4,19 @@
 
 int main ()
 {
-    int numero,vettore[3],somma=0,i;
-    float media,somma_float;
+    int vettore[3], somma=0;
+    float media, somma_float;
 
     printf("inserisci 3 numeri");
-    
-    for (i=0;i<3;i++)
-    {
-        scanf("%d",&numero);
-        vettore[i] = numero;
-        somma += vettore[i];
-    }
+    scanf("%d",&vettore[0]);
+    scanf("%d",&vettore[1]);
+    scanf("%d",&vettore[2]);
+    somma += vettore[0] + vettore[1] + vettore[2];
     
     somma_float = (float) somma;
     media = somma / 3.0;
     
-    printf("la somma e' %d mentre la media e' %f e i numeri inseriti sono",somma,media);
-    for (i=0;i<3;i++)
-        printf("%d",vettore[i]);
+    printf("i numeri inseriti sono %d %d %d e la somma tra loro e' %d mentre la loro media e' %f", vettore[0], vettore[1], vettore[2] , somma, media);
 
     return 0;
 }
