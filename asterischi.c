@@ -1,4 +1,4 @@
-//stampa degli asterischi a distanza di 700 secondi tra di loro
+/*stampa degli asterischi a distanza di 700 secondi tra di loro*/
 
 #include <stdio.h>
 #include <time.h>
