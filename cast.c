@@ -1,4 +1,4 @@
-//cast
+/*cast*/
 
 #include <stdio.h>
 
@@ -8,11 +8,11 @@ int main ()
     int intero;
 
     printf("inserisci un numero reale\t");
-    scanf("%lf",&numero);
+    scanf("%lf", &numero);
     
     intero = (int)numero; 
     
-    printf("il numero reale e' %lf , mentre il numero intero e' %d",numero,intero);
+    printf("il numero reale e' %f , mentre il numero intero e' %d", numero, intero);
     
     return 0;
 }
