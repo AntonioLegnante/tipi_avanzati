@@ -15,7 +15,7 @@ int main ()
 
     media = (double) somma / 3.0;
     
-    printf("i numeri inseriti sono %d %d %d e la somma tra loro e' %f mentre la loro media e' %f", vettore[0], vettore[1], vettore[2] , somma, media);
+    printf("i numeri inseriti sono %d %d %d e la somma tra loro e' %d mentre la loro media e' %f", vettore[0], vettore[1], vettore[2] , somma, media);
 
     return 0;
 }
