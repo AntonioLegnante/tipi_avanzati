@@ -1,4 +1,4 @@
-//uso dei vettori
+/*uso dei vettori*/
 
 #include <stdio.h>
 
@@ -7,7 +7,7 @@ int main ()
     int vettore[3], somma=0;
     float media;
 
-    printf("inserisci 3 numeri");
+    printf("inserisci 3 numeri\n");
     scanf("%d",&vettore[0]);
     scanf("%d",&vettore[1]);
     scanf("%d",&vettore[2]);
