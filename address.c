@@ -8,7 +8,7 @@ int main ()
     
     variabile_puntatore = &variabile;
     
-    printf("l'indirizzo della variabile e' %p", *variabile_puntatore);
+    printf("l'indirizzo della variabile e' %p", variabile_puntatore);
 
 return 0;
 }
